@@ -1,0 +1,252 @@
+    1  cd /root
+    2  mkdir server_lesson && cd server_lesson
+    3  cd server_lesson
+    4  git version
+    5  git init
+    6  touch first.txt
+    7  ls
+    8  rm public
+    9  -rm public
+   10  rm -r public
+   11  ls
+   12  mkdir -p linux_practice1/public
+   13  ls
+   14  ls linux_practice1
+   15  touch public/index.php
+   16  touch linux_practice1/public/index.php
+   17  ls linux_practice1/public
+   18  git status
+   19  git add
+   20  git add .
+   21  git status
+   22  git commit -m 'Add publicにindex.php ファイ
+
+q
+/q
+;
+git status
+git commit -m 'Add publicにindex.php ファイ
+   23  q
+   24  /q
+   25  ;
+   26  git status;
+   27  git commit -m 'Create index.php file in public'
+   28  git config --global user.email hattsu1109@gmail.com
+   29  git config --global user.name h-yanagihashi
+   30  git commit -m 'Create index.php file in public'
+   31  git starus
+   32  git log
+   33  cd /linux_practice1/public
+   34  cd /server_lesson/linux_practice1/public
+   35  ls
+   36  cd /linux_practice1
+   37  cd server_lesson
+   38  cd server_lesson
+   39  cd /server_lesson
+   40  ls
+   41  cd /linux_practice1
+   42  pwd
+   43  cd /root/server_lesson/linux_practice1/public
+   44  cp index.php index_bk.php
+   45  ls
+   46  git status
+   47  git add . 
+   48  git status
+   49  git commit -m ‘Add copy index_bk.php to public’
+   50  commit -m 'Add copy index_bk.php to public'
+   51  git commit -m 'Add copy index_bk.php to public'
+   52  git log
+   53  cd /root/server_lesson
+   54  cp -r public tmp
+   55  cd /root/server_lesson/linux_practice1
+   56  cp -r public tmp
+   57  ls
+   58  ls tmp
+   59  git status
+   60  git add .
+   61  git status
+   62  cd /root/server_lesson/linux_practice1/tmp
+   63  rm index_bk.php
+   64  cd /root/server_lesson/linux_practice1/tmp
+   65  ls
+   66  git status
+   67  git add .
+   68  git add -A
+   69  git status
+   70  git commit -m 'Add copy public and create tmp'
+   71  git log
+   72  cd /root/server_lesson
+   73  ls
+   74  cat README.md
+   75  ls
+   76  touch README.md
+   77  ls
+   78  vi README.md
+   79  cat README.md
+   80  vi README.md
+   81  cat README.md
+   82  git status
+   83  git add .
+   84  git status
+   85  git commit -m 'Add create README.md'
+   86  git log
+   87  cd /root/server_lesson
+   88  mkdir -p linux_practice2/documents
+   89  ls
+   90  ls linux_practice2
+   91* 
+   92  touch gizumo{01..50}.md
+   93  ls
+   94  git status
+   95  git add .
+   96  git status
+   97  git commit -m 'Add create documents and create gizumo.md'
+   98  git log
+   99  cd /root/server_lesson/linux_practice2
+  100  mkdir trash
+  101  ls
+  102  mv documents/gizumo{20..40}.md trash
+  103  ls trash
+  104  ls documents
+  105  git add .
+  106  git status
+  107  # git commit -m ‘Move Move gizumo20…40md to trash’
+  108  git commit -m 'Move Move gizumo.md to trashq
+;
+git status
+git status;
+/q
+\q
+# git commit -m ‘Move Move gizumo20…40md to trash’
+ls trash
+:wq! 
+# git commit -m ‘Mov' Move gizumo20…40md to trash�'
+git add .
+mkdir -p linux_practice2/documentsqq
+q
+X
+git commit -m 'Move Move gizumo.md to trashq
+  109  ;
+  110  git status
+  111  git status;
+  112  /q
+  113  \q
+  114  # git commit -m ‘Move Move gizumo20…40md to trash’
+  115  ls trash
+  116  :wq! 
+  117  # git commit -m ‘Mov' Move gizumo20…40md to trash�'
+  118  git add .
+  119  mkdir -p linux_practice2/documentsqq
+  120  q
+  121  X
+  122  git status
+  123  git commit -m 'Move gizumo.md to trash'
+  124  git log
+  125  cd /root/server_lesson/linux_practice2
+  126  touch .gitignore
+  127  ls
+  128  vi .gitignore
+  129  git status
+  130  cat .gitignore
+  131  vi .gitignore
+  132  git status
+  133  history 300
+  134  git ls-files
+  135  git ls-files --other --ignored --exclude-standard
+  136  git add .
+  137  git status
+  138  ls linux_practice2
+  139  ls trash
+  140  ls
+  141  ls linux_practice2
+  142  rm linux_practice2
+  143  rm -r linux_practice2/linux_practice2
+  144  rm -r linux_practice2
+  145  ls
+  146  ls documents
+  147  ls trash
+  148  git rm --cached gizumo{20..29}.md
+  149  git ls-files
+  150  git rm --cached trash/gizumo{20..29}.md
+  151  git ls-files
+  152  history 300
+  153  cd root/server_lesson/linux_practice2
+  154  pwd
+  155  cd /root/server_lesson/linux_practice2
+  156  history 300 > exec_command.log
+  157  cat exec_command.log
+  158  ls
+  159  git status
+  160  git add .
+  161  git log
+  162  git commit -m 'Add create exec_command.log'
+  163  git log
+  164  git branch
+  165  git status
+  166  ls
+  167  ls documents
+  168  git add .
+  169  git add -A
+  170  git status
+  171  git add .
+  172  git status
+  173  git add .
+  174  git status
+  175  git log
+  176  git reset --hard 491f2e7980b11a62e1e6e20040396f506e9d9635
+  177  git status
+  178  git log
+  179  ls
+  180  ls
+  181  git reset --hard 88f96ce9446dffaf3a81edcb8301a8a9b5375967
+  182  cd root
+  183  cd /root
+  184  ls
+  185  cd /root/server_lesson
+  186  git log
+  187  git status
+  188  ls
+  189  mkdir -p linux_practice2/documents
+  190  ls
+  191  cd /root/server_lesson/linux_practice2
+  192  ls
+  193  touch documents/gizumo{01..50}.md
+  194  ls
+  195  ls documents
+  196  git status
+  197  git add .
+  198  git status
+  199  git commit -m 'Fix create gizumo.md to documents'
+  200  git status
+  201  git log
+  202  pwd
+  203  cd /root/server_lesson/linux_practice2
+  204  ls
+  205  mkdir trash
+  206  ls
+  207  mv documents/gizumo{20..40}.md trash
+  208  ls documents
+  209  ls trash
+  210  git status
+  211  git add .
+  212  git add -A
+  213  git status
+  214  git add .
+  215  git status
+  216  git commit -m 'Fix move gizumo.md to trash'
+  217  git status
+  218  cd /root/server_lesson/linux_practice2
+  219  touch .gitignore
+  220  ls
+  221  vi .gitignore
+  222  cat .gitignore
+  223  git rm --cached gizumo{20..29}.md
+  224  git rm --cached trash/gizumo{20..29}.md
+  225  ls trash
+  226  ls documents
+  227  git status
+  228  git add .
+  229  git status
+  230  git commit -m 'Fix create .gitignore'
+  231  git status
+  232  history 300 > exec_command.log
