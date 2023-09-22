@@ -1,10 +1,10 @@
-# command
--ls
--pwd
--cd
--mkdir
--touch
--cp
--mv
--rm
--cat
+# command  
+- ls(LiSt)  
+- pwd(Print Working Directory)  
+- cd(Change Directory)  
+- mkdir(MaKe DIRectory)  
+- touch  
+- cp(CoPy)  
+- mv(MoVe)  
+- rm(ReMove)  
+- cat(CATnate)
